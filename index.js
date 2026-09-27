@@ -140,11 +140,11 @@ const prompt = require(`prompt-sync`)();
 
 let arrey = [10,30,20,80,100]
 
-// let val = 0;
-// for(i=0; i<arrey.length; i++){
-//     if(arrey[i] > val){
-//         arrey[i] = val
-//     }else console.log(arrey[i]);
+let val = 0;
+for(i=0; i<arrey.length; i++){
+    if(arrey[i] > val){
+        arrey[i] = val
+    }else console.log(arrey[i]);
     
-// }
+}
 console.log(arrey[0]);
