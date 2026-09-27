@@ -138,13 +138,69 @@ const prompt = require(`prompt-sync`)();
 
 
 
-let arrey = [10,30,20,80,100]
+// reverse arrey with extra space 
 
-let val = 0;
-for(i=0; i<arrey.length; i++){
-    if(arrey[i] > val){
-        arrey[i] = val
-    }else console.log(arrey[i]);
-    
-}
-console.log(arrey[0]);
+// let arrey = [10,20,30,40,50];
+// let temp = new Array(arrey.length);
+
+
+// let j = 0;
+ 
+// for(i=arrey.length-1; i>=0; i--){
+//     temp[j] = arrey[i]
+//     j++
+// }
+
+// console.log(temp);
+
+
+
+// reverse arrey without extra space 
+
+
+// let arrey = [10,20,30,40,50,60];
+
+// let i = 0 , j = arrey.length - 1  // a = i , b = j , c = temp
+
+// while(i<j){
+//     let temp = arrey[i]
+//     arrey[i] = arrey[j]
+//     arrey[j] = temp
+
+//     i++
+//     j--
+
+// };
+
+// console.log(arrey);
+
+
+// put all the zero values left and one value right side of the arrey 
+
+
+// let arrey = [0,1,1,0,1,0,0,1,0,1,1,1,1,0];
+
+
+// let i = 0 , j = 0
+
+
+// for(i; i<arrey.length;){
+//     if(arrey[i] == 0){
+//         let temp = arrey[j];
+//         arrey[j] = arrey[i];
+//         arrey[i] = temp
+
+//         j++
+//     }
+//     i++
+// }
+
+// console.log(arrey);
+
+
+
+
+
+
+
+

@@ -266,3 +266,78 @@ let sum = 0;
 for (let i = 0; i < arrey.length; i++) {
     sum = sum + ar
 ```
+
+
+## Q10. Reverse an Array Using Extra Space
+
+Question:
+Given an array, usko reverse karo using an extra array.
+
+Answer:
+
+let arrey = [10,20,30,40,50];
+
+let temp = new Array(arrey.length);
+
+let j = 0;
+
+for(i = arrey.length - 1; i >= 0; i--){
+
+    temp[j] = arrey[i];
+
+    j++;
+}
+
+console.log(temp);
+ ## Q11. Reverse an Array Without Extra Space 
+
+Question:
+Given an array ko reverse karo without creating another array.
+
+Answer:
+
+let arrey = [10,20,30,40,50,60];
+
+let i = 0, j = arrey.length - 1;
+
+while(i < j){
+
+    let temp = arrey[i];
+
+    arrey[i] = arrey[j];
+
+    arrey[j] = temp;
+
+    i++;
+    j--;
+}
+
+console.log(arrey);
+## Q12. Move All Zeroes to Left and Ones to Right
+
+Question:
+Given an array containing only 0 and 1, array ko rearrange karo taki saare 0 left side mein aur saare 1 right side mein aa jaayein.
+
+Answer:
+
+let arrey = [0,1,1,0,1,0,0,1,0,1,1,1,1,0];
+
+let i = 0, j = 0;
+
+for(i; i < arrey.length;){
+
+    if(arrey[i] == 0){
+
+        let temp = arrey[j];
+
+        arrey[j] = arrey[i];
+
+        arrey[i] = temp;
+
+        j++;
+    }
+
+    i++;
+}
+
+console.log(arrey);
