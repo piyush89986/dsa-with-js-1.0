@@ -2,8 +2,6 @@ const prompt = require(`prompt-sync`)();
 
 // let n = prompt("Enter your name: ");
 
-
-
 // let a = 10
 // let b = 20
 
@@ -54,9 +52,7 @@ const prompt = require(`prompt-sync`)();
 //     console.log("lawda pakad");
 // }
 
-
 // problematic unforgotable
-
 
 // let unit = Number(prompt());
 
@@ -79,10 +75,7 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(amount);
 
-
-
-
-// decent solve kr lye the 
+// decent solve kr lye the
 
 // let amount = Number(prompt("put your amount"));
 
@@ -97,12 +90,10 @@ const prompt = require(`prompt-sync`)();
 // }if(amount <= 100){
 //     let c = amount / 100
 //     console.log(`100 * ${Math.floor(c)}`);
-    
+
 // }
 
-
 // let n = Number(prompt("put your number ?"));
-
 
 // if(n > 0){
 //     var sum = 0;
@@ -110,16 +101,12 @@ const prompt = require(`prompt-sync`)();
 //         sum = sum + i
 //     }
 //     console.log(sum);
-    
+
 // }
-
-
 
 // factorial]]
 
-
 // let n = Number(prompt("put your number ?"));
-
 
 // if(n > 0){
 //     var fact = 1;
@@ -127,35 +114,30 @@ const prompt = require(`prompt-sync`)();
 //         fact = fact * i;
 //     }
 //     console.log(fact);
-    
-// }
 
+// }
 
 // konse number kisi number ko pura divide krte hai ?
 
 // let n = Number(prompt("put your number ?"));
 
-
 // if(n > 0){
-    
+
 //     for(i=1; i<=n; i++){
 //         if(n%i === 0){
 //             console.log(i);
-            
+
 //         }
 //     }
-    
-    
+
 // }
-
-
 
 // prime or non-prime number idenatification
 
 // let n = Number(prompt("put your number ?"));
 
 // function Isprime (n){
-//     if(n === 0) return console.log("it was not a prime or non-prime");    
+//     if(n === 0) return console.log("it was not a prime or non-prime");
 //     if(n%2 === 0) return console.log("non-prime");
 //     if()
 // }
@@ -163,7 +145,6 @@ const prompt = require(`prompt-sync`)();
 // Isprime(n);
 
 // hey there we are talking a asum of any element by a do while loop ?
-
 
 // let n  = Number(prompt("put your number that you wanted to do sun"));
 
@@ -176,21 +157,17 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(sum);
 
-
-
 // let n = Number(prompt())
 
 // let rev = 0;
 // while(n > 0){
-    
+
 //     let rem = n%10
-    
+
 //     rev = rev*10 + rem
 //     n = Math.floor((n/10));
 // }
 // console.log(rev);
-
-
 
 // let rendom = Math.floor(Math.random() * 100) + 1
 // let gauss  = -1;
@@ -203,17 +180,16 @@ const prompt = require(`prompt-sync`)();
 //         continue
 //     }else if(gauss > rendom) {
 //         console.log("too high");
-        
+
 //     }else if(gauss < rendom){
 //         console.log("too small");
-        
+
 //     }else{
 //         console.log("congratulation you got it the number was", gauss);
-        
+
 //     }
 
 // }
-
 
 // for (i=0; i<=n; i++){
 //     for(j=0; j<=n; j++){
@@ -222,7 +198,6 @@ const prompt = require(`prompt-sync`)();
 //     console.log();
 
 // }
-
 
 // triangle
 // for(i=0; i<=n; i++){
@@ -233,7 +208,6 @@ const prompt = require(`prompt-sync`)();
 
 // }
 
-
 // deciment triangale
 // for (i=1; i<=n; i++){
 //     for(j=1; j<=n-i+1; j++){
@@ -243,9 +217,9 @@ const prompt = require(`prompt-sync`)();
 
 // }
 
-// print numbers in triangle 
+// print numbers in triangle
 
-// for(i=1; i<=n; i++){ // 
+// for(i=1; i<=n; i++){ //
 //     for(j=1; j<=i; j++){
 //         process.stdout.write(`${j}`);
 //     }
@@ -264,7 +238,6 @@ const prompt = require(`prompt-sync`)();
 //     console.log();
 
 // }
-
 
 // mirror triangale
 
@@ -287,18 +260,13 @@ const prompt = require(`prompt-sync`)();
 //       *  *
 //      *    *
 //     *      *
-//    *        *  
+//    *        *
 
-
-
-// the x pattern 
-
+// the x pattern
 
 // for(i=0; i<=n; i++){
 
-
 // }
-
 
 // arreys
 
@@ -324,14 +292,12 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(max);
 
-
 // let arrey = [10, 5, 25, 65, 69, 105, 10000, 166];
 
-// how to fincd a second max element 
+// how to fincd a second max element
 
-// let max = Math.max(arrey[0], arrey[1]); 
-// let smax = Math.min(arrey[0], arrey[1]); 
-
+// let max = Math.max(arrey[0], arrey[1]);
+// let smax = Math.min(arrey[0], arrey[1]);
 
 // for(i=2; i<arrey.length; i++){
 //     if(arrey[i] > max){
@@ -344,17 +310,13 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(smax);
 
-
-
-
-// reverse arrey with extra space 
+// reverse arrey with extra space
 
 // let arrey = [10,20,30,40,50];
 // let temp = new Array(arrey.length);
 
-
 // let j = 0;
- 
+
 // for(i=arrey.length-1; i>=0; i--){
 //     temp[j] = arrey[i]
 //     j++
@@ -362,10 +324,7 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(temp);
 
-
-
-// reverse arrey without extra space 
-
+// reverse arrey without extra space
 
 // let arrey = [10,20,30,40,50,60];
 
@@ -383,15 +342,11 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(arrey);
 
-
-// put all the zero values left and one value right side of the arrey 
-
+// put all the zero values left and one value right side of the arrey
 
 // let arrey = [0,1,1,0,1,0,0,1,0,1,1,1,1,0];
 
-
 // let i = 0 , j = 0
-
 
 // for(i; i<arrey.length;){
 //     if(arrey[i] == 0){
@@ -406,8 +361,9 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(arrey);
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// put all the minus elemnt into the left side or all the plus element to the right side 
+// put all the minus elemnt into the left side or all the plus element to the right side
 
 // let arrey = [12,15,-4,-14,8,-1,-4,20,-50];
 
@@ -426,9 +382,177 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(arrey);
 
+//  arrey me elements sarkana left side
+
+// let arr = [1,2,3,4,5];
+
+// let j = arr[0];
+
+// for(i=0; i<arr.length-1; i++){
+//    arr[i] = arr[i+1]
+// }
+// arr[arr.length - 1] = j
+
+// console.log(arr);
+
+// right side
+
+// let arr = [1,2,3,4,5];
+// let copy = arr[arr.length-1]
+
+// for(i=arr.length-1; i>0; i--){
+//    arr[i] = arr[i-1];
+// }
+// arr[0] = copy
+
+// console.log(arr);
+
+// left right rotation by k element
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let n = 4;
+// n = n % arr.length
+// for (i = 1; i <= n; i++) {
+//   let a = arr[0];
+//   for (j = 0; j < arr.length - 1; j++) {
+//     arr[j] = arr[j + 1];
+//   }
+//   arr[arr.length - 1] = a;
+// }
+
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5];
+// let temp = new Array(arr.length);
+
+// let n = 4;
+// n = n % arr.length
+
+//  for (j = 0; j < arr.length; j++) {
+//     temp[j] = arr[(j+n)%arr.length];
+//   }
+
+// console.log(temp);
+
+// let arr = [1, 2, 3, 4, 5];
+// let temp = new Array(arr.length);
+
+// let k = 4;
+// k = k % arr.length;
+
+// for (j = 0; j < arr.length; j++) {
+//   arr[(j + k) % arr.length] = arr[j];
+// }
+
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5];
+// let k = 2
+
+// function reverse (i,j){
+//     while(i<j){
+//         let temp = arr[i];
+//         arr[i] = arr[j];
+//         arr[j] = temp
+
+//         i++
+//         j--
+//     }
+// }
+
+// reverse(0, k-1);
+// reverse(k,arr.length-1);
+// reverse(0, arr.length-1)
+
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5];
+// let k = 2;
+
+// function reverse(i, j) {
+//     while (i < j) {
+//         let temp = arr[i];
+//         arr[i] = arr[j];
+//         arr[j] = temp;
+
+//         i++;
+//         j--;
+//     }
+// }
+
+// reverse(0, arr.length - 1); // [5,4,3,2,1]
+// reverse(0, k - 1);           // [4,5,3,2,1]
+// reverse(k, arr.length - 1); // [4,5,1,2,3]
+
+// console.log(arr);
 
 
 
 
+// let nums = [0,0,1,1,1,2,2,3,3,4];
 
+// let j = 1;
+
+// for (let i = 0; i < nums.length - 1; i++) {
+
+//     if (nums[i] !== nums[i + 1]) {
+//         nums[j] = nums[i + 1];
+//         j++;
+//     }
+// }
+
+// console.log(j);
+// console.log(nums);
+
+// let arr1 = [2,5,6]; // i
+// let arr2 = [1,3,4,8]; // j
+
+// let temp = new Array((arr1.length) + (arr2.length))
+ 
+// let i = 0; j=0; k=0;
+// while(i < arr1.length && j < arr2.length){
+//     if(arr1[i] < arr2[j]){
+//        temp[k++] = arr1[i++];
+//     }else{
+//         temp[k++] = arr2[j++]
+//     }
+// }
+
+// while(j<arr2.length){
+//     temp[k++] = arr2[j++]
+// }
+
+// while(i<arr1.length){
+//     temp[k++] = arr1[i++]
+// }
+
+// console.log(temp);
+
+
+// let arr1 = [2,9,4,3,15];
+// let arr2 = [1,8,5,6,20];
+
+
+// let temp = new Array(arr1.length + arr2.length);
+
+// let i = j = k = 0;
+
+// while(i < arr1.length && j < arr2.length){
+//     if(arr1[i] < arr2[j]){
+//         temp[k++] = arr1[i++];
+//     }else{
+//         temp[k++] = arr2[j++];
+//     }
+// }
+
+// while(j<arr2.length){
+//     temp[k++] = arr2[j++]
+// }
+
+// while(i<arr1.length){
+//     temp[k++] = arr1[i++]
+// }
+
+// console.log(temp);
 
