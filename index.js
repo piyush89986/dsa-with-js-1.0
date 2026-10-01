@@ -530,7 +530,7 @@ const prompt = require(`prompt-sync`)();
 // console.log(temp);
 
 
-// let arr1 = [2,9,4,3,15];
+// let arr1 = [2,9,4,3,15,20];
 // let arr2 = [1,8,5,6,20];
 
 
@@ -556,3 +556,64 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(temp);
 
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//start
+
+// let price = [7,1,5,3,6,4];
+
+// let min = price[0];
+// let maxprofit = 0;
+
+// for(i=1; i<price.length; i++){
+//     if(price[i] < min) min  = price[i];
+//     let profit = price[i] - min
+//     maxprofit = Math.max(profit, maxprofit);
+// }
+
+// console.log(maxprofit);
+
+//  let arr = [1,1,0,1,2,0,1,0,2,1,1];
+
+//  let i = 0;
+//  let j = 0;
+//  let k = arr.length-1;
+
+//  while(i<=k){
+//      if(arr[i] === 0){
+//         let temp = arr[i];
+//         arr[i] = arr[j];
+//         arr[j] = temp
+//         i++
+//         j++
+//     }else if(arr[i] === 2){
+//         let tem = arr[i];
+//         arr[i] = arr[k];
+//         arr[k] = tem
+//         k--
+//     }else{
+//         i++
+//     }
+    
+//  }
+
+//  console.log(arr);
+ 
+ 
+// let nums = [-2,1,-3,4,-1,2,1,-5,4]
+
+// let sum = 0;
+// let max = -Infinity;
+
+
+// for(i=0; i<nums.length; i++){
+//      sum = nums[i]
+//     if(max < sum){
+//         max = sum
+       
+    
+//     }else if(sum < 0) sum = 0;
+// }
+
+// console.log(sum);
