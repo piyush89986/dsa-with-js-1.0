@@ -617,3 +617,48 @@ const prompt = require(`prompt-sync`)();
 // }
 
 // console.log(sum);
+
+// let height = [4,2,0,3,2,5];
+
+// let left = new Array(height.length); 
+// let right = new Array(height.length);
+
+// let maxleft = height[0];               // [4,0,0,0,0,0]
+// let maxright = height[height.length-1];       // [0,0,0,0,0,5]
+
+// left[0] = maxleft;
+// right[height.length-1] = maxright;
+
+// for(i=1; i<height.length; i++){
+//     maxleft = Math.max(height[i], maxleft);
+//     left[i] = maxleft
+// };
+
+// // [4,4,4,4,4,5]
+
+// for(i=height.length-2; i>=0; i--){
+//     maxright = Math.max(height[i], maxright);
+//     right[i] = maxright
+// }
+
+// // [5,5,5,5,5,5]
+
+// let ans = 0;
+// for(i=0; i<height.length; i++){
+//     ans += Math.min(left[i], right[i]) - height[i]
+// }
+
+// console.log(ans);
+
+
+let digits = [1,2,3];
+
+let str = 0
+
+for(i=0; i<digits.length; i++){
+    str = String(str);  
+
+}
+
+
+
