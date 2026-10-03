@@ -561,18 +561,18 @@ const prompt = require(`prompt-sync`)();
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //start
 
-// let price = [7,1,5,3,6,4];
+let price = [7,1,5,3,6,4];
 
-// let min = price[0];
-// let maxprofit = 0;
+let min = price[0];
+let maxprofit = 0;
 
-// for(i=1; i<price.length; i++){
-//     if(price[i] < min) min  = price[i];
-//     let profit = price[i] - min
-//     maxprofit = Math.max(profit, maxprofit);
-// }
+for(i=1; i<price.length; i++){
+    if(price[i] < min) min  = price[i];
+    let profit = price[i] - min
+    maxprofit = Math.max(profit, maxprofit);
+}
 
-// console.log(maxprofit);
+console.log(maxprofit);
 
 //  let arr = [1,1,0,1,2,0,1,0,2,1,1];
 
@@ -650,15 +650,33 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(ans);
 
+// let arr1 = [2,4,7];
+// let arr2  = [1,3,5,6,8];
 
-let digits = [1,2,3];
+// let arr = new Array(arr1.length + arr2.length);
 
-let str = 0
+// let i = j = k = 0;
 
-for(i=0; i<digits.length; i++){
-    str = String(str);  
+// while(i<arr1.length && j < arr2.length){
+//     if(arr1[i] < arr2[j]){
+//         arr[k++] = arr1[i++];
+//     }else{
+//         arr[k++] = arr2[j++]
+//     }
+// }
 
-}
+// while(j<arr2.length){
+//     arr[k++] = arr2[j++]
+// }
+
+// while(i<arr1.length){
+//     arr[k++] = arr1[i++]
+// }
+// console.log(arr);
+
+
+
+
 
 
 
