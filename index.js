@@ -710,14 +710,36 @@ let input = prompt("enter your string  ");
 // else{console.log("pallindrome nhi hai");
 // }
 
-let s = input
-let toggle = "";
-for (i = 0; i < s.length - 1; i++) {
-  let ch = s.charCodeAt(i);
-  if (ch >= 65 && ch <= 90) {
-    toggle = toggle + String.fromCharCode(ch + 32);
-  } else if (ch >= 97 && ch <= 122) {
-    toggle = toggle + String.fromCharCode(ch - 32);
-  }
-}
-console.log(toggle);
+// let s = input
+// let toggle = "";
+// for (i = 0; i < s.length - 1; i++) {
+//   let ch = s.charCodeAt(i);
+//   if (ch >= 65 && ch <= 90) {
+//     toggle = toggle + String.fromCharCode(ch + 32);
+//   } else if (ch >= 97 && ch <= 122) {
+//     toggle = toggle + String.fromCharCode(ch - 32);
+//   }
+// }
+// console.log(toggle);
+
+
+// let arr = new Array(128).fill(0);
+
+// for(let i = 0; i < input.length; i++){
+//     let index = input.charCodeAt(i);
+//     arr[index]++;
+// }
+
+// for(let i = 0; i < arr.length; i++){
+//     if(arr[i] > 0){
+//         console.log(
+//             String.fromCharCode(i) +
+//             " appears at " +
+//             arr[i] +
+//             " times"
+//         );
+//     }
+// }
+
+
+
