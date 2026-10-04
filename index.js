@@ -1,4 +1,5 @@
 const prompt = require(`prompt-sync`)();
+let input = prompt("enter your string  ");
 
 // let n = prompt("Enter your name: ");
 
@@ -487,9 +488,6 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(arr);
 
-
-
-
 // let nums = [0,0,1,1,1,2,2,3,3,4];
 
 // let j = 1;
@@ -509,7 +507,7 @@ const prompt = require(`prompt-sync`)();
 // let arr2 = [1,3,4,8]; // j
 
 // let temp = new Array((arr1.length) + (arr2.length))
- 
+
 // let i = 0; j=0; k=0;
 // while(i < arr1.length && j < arr2.length){
 //     if(arr1[i] < arr2[j]){
@@ -529,10 +527,8 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(temp);
 
-
 // let arr1 = [2,9,4,3,15,20];
 // let arr2 = [1,8,5,6,20];
-
 
 // let temp = new Array(arr1.length + arr2.length);
 
@@ -556,23 +552,21 @@ const prompt = require(`prompt-sync`)();
 
 // console.log(temp);
 
-
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //start
 
-let price = [7,1,5,3,6,4];
+// let price = [7,1,5,3,6,4];
 
-let min = price[0];
-let maxprofit = 0;
+// let min = price[0];
+// let maxprofit = 0;
 
-for(i=1; i<price.length; i++){
-    if(price[i] < min) min  = price[i];
-    let profit = price[i] - min
-    maxprofit = Math.max(profit, maxprofit);
-}
+// for(i=1; i<price.length; i++){
+//     if(price[i] < min) min  = price[i];
+//     let profit = price[i] - min
+//     maxprofit = Math.max(profit, maxprofit);
+// }
 
-console.log(maxprofit);
+// console.log(maxprofit);
 
 //  let arr = [1,1,0,1,2,0,1,0,2,1,1];
 
@@ -595,24 +589,21 @@ console.log(maxprofit);
 //     }else{
 //         i++
 //     }
-    
+
 //  }
 
 //  console.log(arr);
- 
- 
+
 // let nums = [-2,1,-3,4,-1,2,1,-5,4]
 
 // let sum = 0;
 // let max = -Infinity;
 
-
 // for(i=0; i<nums.length; i++){
 //      sum = nums[i]
 //     if(max < sum){
 //         max = sum
-       
-    
+
 //     }else if(sum < 0) sum = 0;
 // }
 
@@ -620,7 +611,7 @@ console.log(maxprofit);
 
 // let height = [4,2,0,3,2,5];
 
-// let left = new Array(height.length); 
+// let left = new Array(height.length);
 // let right = new Array(height.length);
 
 // let maxleft = height[0];               // [4,0,0,0,0,0]
@@ -674,9 +665,59 @@ console.log(maxprofit);
 // }
 // console.log(arr);
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// String
 
+// console.log(a.slice(2,4));
+// console.log(a.substring(2,4));
 
+// console.log(a.concat(" tanwar"));
 
+// let str = ""
+// for(i=a.length; i>=0; i--){
+//     str = str + a.charAt(i);
+// }
 
+// console.log(str);
 
+// let str = ""
+// for(i=a.length; i>=0; i--){
+//     str = str + a.charAt(i);
+// }
+
+// if(a === str) console.log("pallindrome hai");
+// else{
+//     console.log("pallindrome nhi hai");
+
+// }
+
+// let i = 0;
+// let j = input.length - 1;
+// let v = true
+
+// while ((i <= j)) {
+//   if (input.charAt(i) != input.charAt(j)) {
+//     v = false
+//     break;
+//   }
+
+//   i++;
+//   j--;
+// }
+
+// if(v)console.log("pallindrome hai");
+// else{console.log("pallindrome nhi hai");
+// }
+
+let s = input
+let toggle = "";
+for (i = 0; i < s.length - 1; i++) {
+  let ch = s.charCodeAt(i);
+  if (ch >= 65 && ch <= 90) {
+    toggle = toggle + String.fromCharCode(ch + 32);
+  } else if (ch >= 97 && ch <= 122) {
+    toggle = toggle + String.fromCharCode(ch - 32);
+  }
+}
+console.log(toggle);
