@@ -1,5 +1,5 @@
-const prompt = require(`prompt-sync`)();
-let input = prompt("enter your string  ");
+// const prompt = require(`prompt-sync`)();
+// let input = prompt("enter your string  ");
 
 // let n = prompt("Enter your name: ");
 
@@ -742,4 +742,38 @@ let input = prompt("enter your string  ");
 // }
 
 
+// buble sort 
+// let arr = [10,5,1,12,3];
 
+// let n = arr.length;
+
+// for(i=0; i<n-1; i++){
+//     for(j=0; j<n-1-i; j++){
+//         if(arr[j] > arr[j+1]){
+//             temp = arr[j];
+//             arr[j]  = arr[j+1];
+//             arr[j+1] = temp
+//         }
+//     }
+// }
+// console.log(arr);
+
+
+let arr = [2, 4, 1, 9, 5, 7];
+
+let n = arr.length;
+
+for (let i = n - 1; i > 0; i--) {
+
+    for (let j = n - 1; j > 0; j--) {
+
+        if (arr[j] > arr[j - 1]) {
+
+            let temp = arr[j];
+            arr[j] = arr[j - 1];
+            arr[j - 1] = temp;
+        }
+    }
+}
+
+console.log(arr);
