@@ -759,21 +759,36 @@
 // console.log(arr);
 
 
-let arr = [2, 4, 1, 9, 5, 7];
+// let arr = [2, 4, 1, 9, 5, 7];
 
-let n = arr.length;
+// let n = arr.length;
 
-for (let i = n - 1; i > 0; i--) {
+// for (let i = n - 1; i > 0; i--) {
 
-    for (let j = n - 1; j > 0; j--) {
+//     for (let j = n - 1; j > 0; j--) {
 
-        if (arr[j] > arr[j - 1]) {
+//         if (arr[j] > arr[j - 1]) {
 
-            let temp = arr[j];
-            arr[j] = arr[j - 1];
-            arr[j - 1] = temp;
+//             let temp = arr[j];
+//             arr[j] = arr[j - 1];
+//             arr[j - 1] = temp;
+//         }
+//     }
+// }
+
+// console.log(arr);
+
+
+
+let arr = [6,5,9,4,2,8];
+
+
+for(i=0; i< arr.length-1; i++){
+    let minindex = i;
+    for(j=i+1; j<arr.length; j++){
+        if(arr[minindex] < arr[j]){
+           
         }
+        if(arr[minindex] != )
     }
 }
-
-console.log(arr);
