@@ -722,7 +722,6 @@
 // }
 // console.log(toggle);
 
-
 // let arr = new Array(128).fill(0);
 
 // for(let i = 0; i < input.length; i++){
@@ -741,8 +740,7 @@
 //     }
 // }
 
-
-// buble sort 
+// buble sort
 // let arr = [10,5,1,12,3];
 
 // let n = arr.length;
@@ -757,7 +755,6 @@
 //     }
 // }
 // console.log(arr);
-
 
 // let arr = [2, 4, 1, 9, 5, 7];
 
@@ -778,17 +775,22 @@
 
 // console.log(arr);
 
+// let arr = [6, 5, 9, 4, 2, 8];
+
+// for (i = 0; i < arr.length - 1; i++) {
+//   let minindex = i;
+//   for (j = i + 1; j < arr.length; j++) {
+//     if (arr[minindex] > arr[j]) {
+//       minindex = j;
+//     }
+//     if (arr[minindex] != i) {
+//       let temp = arr[minindex];
+//       arr[minindex] = arr[i];
+//       arr[i] = temp;
+//     }
+//   }
+// }
+// console.log(arr);
 
 
-let arr = [6,5,9,4,2,8];
 
-
-for(i=0; i< arr.length-1; i++){
-    let minindex = i;
-    for(j=i+1; j<arr.length; j++){
-        if(arr[minindex] < arr[j]){
-           
-        }
-        if(arr[minindex] != )
-    }
-}
