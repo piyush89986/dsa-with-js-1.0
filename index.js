@@ -366,11 +366,11 @@
 
 // put all the minus elemnt into the left side or all the plus element to the right side
 
-// let arrey = [12,15,-4,-14,8,-1,-4,20,-50];
+// let arrey = [12,15,-4,-14,8,-1,-4,20,-50]
 
 // let i = 0 , j = 0;
 
-// while(arrey[i] < arrey.length){
+// while(i < arrey.length){
 //     if(arrey[i] > 0){
 //         let temp = arrey[j];
 //         arrey[j] = arrey[i];
@@ -380,6 +380,7 @@
 //     }
 //     i++;
 // };
+// console.log(arrey);
 
 // console.log(arrey);
 
@@ -775,6 +776,8 @@
 
 // console.log(arr);
 
+
+// buble sort 
 // let arr = [6, 5, 9, 4, 2, 8];
 
 // for (i = 0; i < arr.length - 1; i++) {
@@ -793,4 +796,50 @@
 // console.log(arr);
 
 
+// selection sort
 
+// let arr = [10,5,12,1,3];
+
+// for(i=0; i<arr.length-1; i++){
+//   let minindex = i;
+//   for(j= i + 1; j<arr.length; j++){
+//     if(arr[minindex] > arr[j]) minindex = j;
+//   }
+//   if(minindex != i){
+//     let temp = arr[minindex];
+//     arr[minindex] = arr[i];
+//     arr[i] = temp
+//   }
+// }
+
+// console.log(arr);
+
+
+
+// import process from "cjs";
+
+
+// for (let i = 0; i < 5; i++) {
+//     for (let j = 0; j < 5; j++) {
+//         process.stdout.write("* ");
+//     }
+//     console.log();
+// }
+
+
+// for (let i = 0; i < 5; i++) {
+//   for (let j = 0; j < 5; j++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
+
+
+let arr = [1,2,3,4,5];
+
+for(let i = 0; i<arr.length-1; i++){
+  let temp = arr[i];
+  arr[i] = arr[i+1];
+  arr[i+1] = temp;
+}
+console.log(arr);
